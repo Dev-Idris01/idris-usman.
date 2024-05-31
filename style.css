@@ -1,0 +1,431 @@
+
+/* HERO SECTION */
+
+.banner{
+    background-image: url(./images/banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.intro{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.title{
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.button:hover{
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    padding: 20px 50px;
+    color: blue;
+    border-radius: 40px;
+    font-size: 30px;
+    border: 2px solid blue;
+}
+
+
+/* ABOUT SECTION */
+
+#span1{
+    color: blue;
+}
+
+.span2{
+    font-weight: 100px;
+    font-style: italic;
+}
+
+.about{
+    width: 100%;
+    background-color: #191919;
+    padding: 100px 0px;
+}
+
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.about-image{
+    float: left;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+}
+
+#about > div > div > h2{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    color: blue;
+}
+
+.about-text{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+
+
+/* SKILL SECTION 1 */
+
+.skill-main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto; 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+#skill > h2{
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+#skill > div > div > h2{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* SKILL SECTION 1 */
+
+.skill-main-2{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+
+
+
+/* CONTACT SECTION */
+
+#contact{
+    background-color: #191919;
+}
+
+.contact-me{
+    width: 75%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#contact > div.contact-me > h2{
+    padding-top: 40px;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+}
+
+h3{
+    color: blue;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+.coding{
+    margin: 40px auto 60px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border-bottom: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: blue;
+    background-color: transparent;
+    border: 2px solid;
+}
+
+/* BOTTOM CONTAINER */
+
+.bottom-container{
+    padding: 0px 5px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer{
+    text-decoration: none;
+    color: white;
+}
+
+.footer:hover{
+    color: blue;
+}
+
+.copywrit{
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+/* MEDIA QUERIES SECTION */
+
+
+/* MOBILE SCREENS */
+
+@media(min-width:319px) and (max-width:480px){
+
+    /* HERO SECTION */
+
+    .banner{
+        height: 100vh;
+        width: 100%;
+        }
+
+    .intro{
+        font-size: 13px;
+        }
+    
+    h1{
+        font-size: 30px;
+        }
+
+    .title{
+        font-size: 15px;
+        margin-top: 5px;
+        }
+    
+    .button{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+
+    /* ABOUT SECTION */
+
+    .about{
+        width: 100%;
+        background-color: #191919;
+        padding: 100px 0px;
+    }
+    
+    .about-me{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto; 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+    
+    .about-image{
+        width: 100px;
+        height: 100px;
+    }
+    
+    #about > div > div > h2{
+        font-size: 25px;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    
+    .about-text{
+        font-family: "Poppins", sans-serif;
+        font-size: 13px;
+    }
+    
+    .button{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    
+    hr{
+        border: dotted black 3px;
+        border-bottom: none;
+        width: 2%;
+    }
+
+
+
+    
+    /* SKILL SECTION */
+    
+    #skill > h2{
+        font-size: 25px;
+    }
+
+    #skill > div > div > h2{
+        font-size: 20px;
+    }
+
+
+
+
+    /* CONTACT SECTION */
+
+    #contact > div.contact-me > h2{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    .coding{
+        font-size: 10px;
+        margin: 20px 0px 30px;
+        font-weight: bold;
+    }
+    
+    .button{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+
+
+    /* FOOTER SECTION */
+
+    li{
+        font-size: 10px;
+    }
+    
+    
+    .copywrit{
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    
+
+}
+
+
+/* IPAD SCREENS */
+
+@media(min-width:481px) and (max-width:1200px){
+    .banner{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .intro{
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+/* LAPTOPS SCREENS */
+
+@media(min-width:1201px) and (max-width:1600px){
+    .banner{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .intro{
+        font-size: 30px;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+}
+
+/* DESKTOPS SCREENS */
+
+@media(max-width:1601px){
+    .banner{
+        height: 100vh;
+        width: 100%;
+    }
+
+  
+}
